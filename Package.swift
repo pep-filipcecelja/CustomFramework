@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CustomFramework",
+    platforms: [.iOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -14,10 +15,9 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "CustomFramework"),
-        .testTarget(
-            name: "CustomFrameworkTests",
-            dependencies: ["CustomFramework"]),
+        .binaryTarget(
+            name: "CustomFramework",
+            path: "./Sources/CustomFramework.xcframework"
+        )
     ]
 )
