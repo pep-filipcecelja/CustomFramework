@@ -18,6 +18,10 @@ let package = Package(
         .binaryTarget(
             name: "CustomFramework",
             path: "./Sources/CustomFramework.xcframework"
+        ),
+        .binaryTarget(
+            name: "CustomFramework2",
+            path: "./Sources/CustomFramework2.xcframework"
         )
     ]
 )
