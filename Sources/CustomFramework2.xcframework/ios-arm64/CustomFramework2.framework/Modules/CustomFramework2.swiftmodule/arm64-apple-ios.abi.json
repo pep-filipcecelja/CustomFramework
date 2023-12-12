@@ -1,0 +1,64 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK2",
+        "printedName": "SDK2",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "doSomeWork2",
+            "printedName": "doSomeWork2()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16CustomFramework24SDK2V11doSomeWork2yyFZ",
+            "mangledName": "$s16CustomFramework24SDK2V11doSomeWork2yyFZ",
+            "moduleName": "CustomFramework2",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16CustomFramework24SDK2V",
+        "mangledName": "$s16CustomFramework24SDK2V",
+        "moduleName": "CustomFramework2",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filip.cecelja\/Documents\/Projects\/Framework\/CustomFramework2\/CustomFramework2\/SDK2.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 22,
+      "value": "\"Working from SDK@...\""
+    }
+  ]
+}
